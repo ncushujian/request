@@ -1,0 +1,25 @@
+{
+  "name": "qt-request",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/request.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js & webpack --config ./demo/webpack.config.js"
+  },
+  "author": "ncushujian",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "rollup": "^0.67.0",
+    "rollup-plugin-postcss": "^0.5.5",
+    "rollup-plugin-terser": "^5.1.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6"
+  }
+}
